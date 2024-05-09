@@ -19,7 +19,6 @@ class Human:
               f"My gender is {self.sex}\nI am {gender}")
 
 
-# Создаем объект Human_1
 Human_1 = Human('Ryhor', 'Hapkala', 20, 'Male', False, 44)
 Human_1.get_info()
 print('------------------------------')
@@ -35,3 +34,7 @@ Human_1.ride_a_car = ride_a_car
 # Используем ride_a_car только для Human_1
 print('------------------------------')
 Human_1.ride_a_car(Human_1, 'Audi')
+
+
+def spacja():
+    pass
